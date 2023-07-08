@@ -1,0 +1,95 @@
+[{
+  "_id": "P001",
+  "libros_prestados": [
+    "B001"
+  ],
+  "id_lector": "U001",
+  "fecha_prestamo": "2023-07-01",
+  "fecha_devolucion": "2023-07-15",
+  "multa": 0
+},{
+  "_id": "P002",
+  "libros_prestados": [
+    "B002"
+  ],
+  "id_lector": "U002",
+  "fecha_prestamo": "2023-07-02",
+  "fecha_devolucion": "2023-07-16",
+  "multa": 0
+},{
+  "_id": "P003",
+  "libros_prestados": [
+    "B003",
+    "B004"
+  ],
+  "id_lector": "U003",
+  "fecha_prestamo": "2023-07-03",
+  "fecha_devolucion": "2023-07-17",
+  "multa": 0
+},{
+  "_id": "P004",
+  "libros_prestados": [
+    "B005",
+    "B006"
+  ],
+  "id_lector": "U004",
+  "fecha_prestamo": "2023-07-04",
+  "fecha_devolucion": "2023-07-18",
+  "multa": 0
+},{
+  "_id": "P005",
+  "libros_prestados": [
+    "B007",
+    "B008"
+  ],
+  "id_lector": "U005",
+  "fecha_prestamo": "2023-07-05",
+  "fecha_devolucion": "2023-07-19",
+  "multa": 0
+},{
+  "_id": "P006",
+  "libros_prestados": [
+    "B009"
+  ],
+  "id_lector": "U006",
+  "fecha_prestamo": "2023-07-06",
+  "fecha_devolucion": "2023-07-20",
+  "multa": 0
+},{
+  "_id": "P007",
+  "libros_prestados": [
+    "B010"
+  ],
+  "id_lector": "U007",
+  "fecha_prestamo": "2023-07-07",
+  "fecha_devolucion": "2023-07-21",
+  "multa": 0
+},{
+  "_id": "P008",
+  "libros_prestados": [
+    "B011"
+  ],
+  "id_lector": "U008",
+  "fecha_prestamo": "2023-07-08",
+  "fecha_devolucion": "2023-07-22",
+  "multa": 0
+},{
+  "_id": "P009",
+  "libros_prestados": [
+    "B012"
+  ],
+  "id_lector": "U009",
+  "fecha_prestamo": "2023-07-09",
+  "fecha_devolucion": "2023-07-23",
+  "multa": 0
+},{
+  "_id": "P010",
+  "libros_prestados": [
+    "B013",
+    "B014"
+  ],
+  "id_lector": "U010",
+  "fecha_prestamo": "2023-07-10",
+  "fecha_devolucion": "2023-07-24",
+  "multa": 0
+}]

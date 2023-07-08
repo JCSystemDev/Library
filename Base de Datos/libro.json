@@ -1,0 +1,199 @@
+[{
+  "_id": "B001",
+  "titulo": "1984",
+  "autores": "['George Orwell']",
+  "anio_publicacion": "1949",
+  "descripcion": "1984 es una novela distópica escrita por George Orwell.",
+  "editorial": "Secker & Warburg",
+  "copias_disponibles": "10"
+},{
+  "_id": "B002",
+  "titulo": "Matar a un ruiseñor",
+  "autores": [
+    "Harper Lee"
+  ],
+  "anio_publicacion": 1960,
+  "descripcion": "Matar a un ruiseñor es una novela de Harper Lee que aborda temas de raza e injusticia en el sur de EEUU.",
+  "editorial": "J.B. Lippincott & Co.",
+  "copias_disponibles": 3
+},{
+  "_id": "B003",
+  "titulo": "Don Quijote de la Mancha",
+  "autores": [
+    "Miguel de Cervantes Saavedra"
+  ],
+  "anio_publicacion": 1605,
+  "descripcion": "Don Quijote de la Mancha es una de las obras más importantes de la literatura española.",
+  "editorial": "Francisco de Robles",
+  "copias_disponibles": 8
+},{
+  "_id": "B004",
+  "titulo": "Cien años de soledad",
+  "autores": [
+    "Gabriel García Márquez"
+  ],
+  "anio_publicacion": 1967,
+  "descripcion": "Cien años de soledad es una novela que narra la historia de la familia Buendía a lo largo de varias generaciones en el pueblo ficticio de Macondo.",
+  "editorial": "Editorial Sudamericana",
+  "copias_disponibles": 10
+},{
+  "_id": "B005",
+  "titulo": "Orgullo y prejuicio",
+  "autores": [
+    "Jane Austen"
+  ],
+  "anio_publicacion": 1813,
+  "descripcion": "Orgullo y prejuicio es una novela romántica de Jane Austen que sigue la vida de las hermanas Bennet en la Inglaterra rural del siglo XIX.",
+  "editorial": "T. Egerton, Whitehall",
+  "copias_disponibles": 6
+},{
+  "_id": "B006",
+  "titulo": "Moby-Dick",
+  "autores": [
+    "Herman Melville"
+  ],
+  "anio_publicacion": 1851,
+  "descripcion": "Moby-Dick es una novela épica que sigue la obsesiva búsqueda del capitán Ahab por la gran ballena blanca.",
+  "editorial": "Harper & Brothers",
+  "copias_disponibles": 4
+},{
+  "_id": "B007",
+  "titulo": "Ulises",
+  "autores": [
+    "James Joyce"
+  ],
+  "anio_publicacion": 1922,
+  "descripcion": "Ulises es una novela experimental de James Joyce que sigue un día en la vida de Leopold Bloom en Dublín.",
+  "editorial": "Sylvia Beach",
+  "copias_disponibles": 2
+},{
+  "_id": "B008",
+  "titulo": "En busca del tiempo perdido",
+  "autores": [
+    "Marcel Proust"
+  ],
+  "anio_publicacion": 1913,
+  "descripcion": "En busca del tiempo perdido es una serie de siete novelas que exploran la memoria y el paso del tiempo.",
+  "editorial": "Grasset",
+  "copias_disponibles": 7
+},{
+  "_id": "B009",
+  "titulo": "Crimen y castigo",
+  "autores": [
+    "Fyodor Dostoevsky"
+  ],
+  "anio_publicacion": 1866,
+  "descripcion": "Crimen y castigo sigue la historia de Raskólnikov, un estudiante que comete un asesinato y lidia con su culpabilidad.",
+  "editorial": "The Russian Messenger",
+  "copias_disponibles": 5
+},{
+  "_id": "B010",
+  "titulo": "El Gran Gatsby",
+  "autores": [
+    "F. Scott Fitzgerald"
+  ],
+  "anio_publicacion": 1925,
+  "descripcion": "El Gran Gatsby es una novela que explora temas de riqueza, amor y decadencia en la década de 1920 en Estados Unidos.",
+  "editorial": "Charles Scribner's Sons",
+  "copias_disponibles": 3
+},{
+  "_id": "B011",
+  "titulo": "1984",
+  "autores": [
+    "George Orwell"
+  ],
+  "anio_publicacion": 1949,
+  "descripcion": "1984 es una novela distópica escrita por George Orwell.",
+  "editorial": "Secker & Warburg",
+  "copias_disponibles": 5
+},{
+  "_id": "B012",
+  "titulo": "Matar a un ruiseñor",
+  "autores": [
+    "Harper Lee"
+  ],
+  "anio_publicacion": 1960,
+  "descripcion": "Matar a un ruiseñor es una novela de Harper Lee que aborda temas de raza e injusticia en el sur de Estados Unidos.",
+  "editorial": "J.B. Lippincott & Co.",
+  "copias_disponibles": 3
+},{
+  "_id": "B013",
+  "titulo": "Don Quijote de la Mancha",
+  "autores": [
+    "Miguel de Cervantes Saavedra"
+  ],
+  "anio_publicacion": 1605,
+  "descripcion": "Don Quijote de la Mancha es una de las obras más importantes de la literatura española.",
+  "editorial": "Francisco de Robles",
+  "copias_disponibles": 8
+},{
+  "_id": "B014",
+  "titulo": "Cien años de soledad",
+  "autores": [
+    "Gabriel García Márquez"
+  ],
+  "anio_publicacion": 1967,
+  "descripcion": "Cien años de soledad es una novela que narra la historia de la familia Buendía a lo largo de varias generaciones en el pueblo ficticio de Macondo.",
+  "editorial": "Editorial Sudamericana",
+  "copias_disponibles": 10
+},{
+  "_id": "B015",
+  "titulo": "Orgullo y prejuicio",
+  "autores": [
+    "Jane Austen"
+  ],
+  "anio_publicacion": 1813,
+  "descripcion": "Orgullo y prejuicio es una novela romántica de Jane Austen que sigue la vida de las hermanas Bennet en la Inglaterra rural del siglo XIX.",
+  "editorial": "T. Egerton, Whitehall",
+  "copias_disponibles": 6
+},{
+  "_id": "B016",
+  "titulo": "Moby-Dick",
+  "autores": [
+    "Herman Melville"
+  ],
+  "anio_publicacion": 1851,
+  "descripcion": "Moby-Dick es una novela épica que sigue la obsesiva búsqueda del capitán Ahab por la gran ballena blanca.",
+  "editorial": "Harper & Brothers",
+  "copias_disponibles": 4
+},{
+  "_id": "B017",
+  "titulo": "Ulises",
+  "autores": [
+    "James Joyce"
+  ],
+  "anio_publicacion": 1922,
+  "descripcion": "Ulises es una novela experimental de James Joyce que sigue un día en la vida de Leopold Bloom en Dublín.",
+  "editorial": "Sylvia Beach",
+  "copias_disponibles": 2
+},{
+  "_id": "B018",
+  "titulo": "En busca del tiempo perdido",
+  "autores": [
+    "Marcel Proust"
+  ],
+  "anio_publicacion": 1913,
+  "descripcion": "En busca del tiempo perdido es una serie de siete novelas que exploran la memoria y el paso del tiempo.",
+  "editorial": "Grasset",
+  "copias_disponibles": 7
+},{
+  "_id": "B019",
+  "titulo": "Crimen y castigo",
+  "autores": [
+    "Fyodor Dostoevsky"
+  ],
+  "anio_publicacion": 1866,
+  "descripcion": "Crimen y castigo sigue la historia de Raskólnikov, un estudiante que comete un asesinato y lidia con su culpabilidad.",
+  "editorial": "The Russian Messenger",
+  "copias_disponibles": 5
+},{
+  "_id": "B020",
+  "titulo": "El Gran Gatsby",
+  "autores": [
+    "F. Scott Fitzgerald"
+  ],
+  "anio_publicacion": "1925",
+  "descripcion": "El Gran Gatsby es una novela que explora temas de riqueza, amor y decadencia en la década de 1920 en Estados Unidos.",
+  "editorial": "Charles Scribner's Sons",
+  "copias_disponibles": "3"
+}]

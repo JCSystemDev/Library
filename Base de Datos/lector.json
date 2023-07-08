@@ -1,0 +1,81 @@
+[{
+  "_id": "U001",
+  "nombre": "Carlos",
+  "apellido": "Pérez",
+  "rut": "12345678-9",
+  "email": "juan@example.com",
+  "telefono": "123456789",
+  "prestamo": "False"
+},{
+  "_id": "U002",
+  "nombre": "María",
+  "apellido": "González",
+  "rut": "98765432-1",
+  "email": "maria@example.com",
+  "telefono": "987654321",
+  "prestamo": false
+},{
+  "_id": "U003",
+  "nombre": "Carlos",
+  "apellido": "Rodríguez",
+  "rut": "45678912-3",
+  "email": "carlos@example.com",
+  "telefono": "456789123",
+  "prestamo": false
+},{
+  "_id": "U004",
+  "nombre": "Ana",
+  "apellido": "López",
+  "rut": "78912345-6",
+  "email": "ana@example.com",
+  "telefono": "789123456",
+  "prestamo": false
+},{
+  "_id": "U005",
+  "nombre": "Pedro",
+  "apellido": "Martínez",
+  "rut": "32165498-7",
+  "email": "pedro@example.com",
+  "telefono": "321654987",
+  "prestamo": false
+},{
+  "_id": "U006",
+  "nombre": "Laura",
+  "apellido": "Hernández",
+  "rut": "65498732-1",
+  "email": "laura@example.com",
+  "telefono": "654987321",
+  "prestamo": false
+},{
+  "_id": "U007",
+  "nombre": "José",
+  "apellido": "Gómez",
+  "rut": "98765432-1",
+  "email": "jose@example.com",
+  "telefono": "987654321",
+  "prestamo": false
+},{
+  "_id": "U008",
+  "nombre": "Carolina",
+  "apellido": "López",
+  "rut": "78912345-6",
+  "email": "carolina@example.com",
+  "telefono": "789123456",
+  "prestamo": false
+},{
+  "_id": "U009",
+  "nombre": "Andrés",
+  "apellido": "Torres",
+  "rut": "32165498-7",
+  "email": "andres@example.com",
+  "telefono": "321654987",
+  "prestamo": false
+},{
+  "_id": "U010",
+  "nombre": "María",
+  "apellido": "Hernández",
+  "rut": "65498732-1",
+  "email": "maria@example.com",
+  "telefono": "654987321",
+  "prestamo": false
+}]

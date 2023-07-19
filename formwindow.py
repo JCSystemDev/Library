@@ -100,34 +100,41 @@ class Crear(FormWindow):
             value = line_edit.text()
             if field == "libros_prestados":
                 value = [book.strip() for book in value.split(",")]
+            if field == "autores":
+                value = [autor.strip() for autor in value.split(",")]
+            if field == "multa":
+                value = 0
+            if field == "prestamo":
+                value = False
             document[field] = value
 
         dao = DAO()
         try:
-            # Verificar si el lector ya tiene un préstamo realizado
-            id_lector = document["id_lector"]
-            lector = dao.buscar("lector", {"_id": id_lector})
-            if lector and lector.get("prestamo", False):
-                QMessageBox.warning(self, "Error", "El lector ya tiene un préstamo realizado.")
-                return
-
-            # Verificar disponibilidad de copias en la colección "libro"
-            libros_prestados = document["libros_prestados"]
-            libros = dao.mostrar("libro", {"_id": {"$in": libros_prestados}})
-            for libro in libros:
-                if libro.get("copias_disponibles", 0) <= 0:
-                    QMessageBox.warning(self, "Error", f"No hay copias disponibles del libro '{libro['_id']}'.")
+            if self.collection_name == "prestamo":
+                # Verificar si el lector ya tiene un préstamo realizado
+                id_lector = document["id_lector"]
+                lector = dao.buscar("lector", {"_id": id_lector})
+                if lector and lector.get("prestamo", False):
+                    QMessageBox.warning(self, "Error", "El lector ya tiene un préstamo realizado.")
                     return
 
-            # Agregar el préstamo en la colección "prestamo"
-            prestamo_id = dao.crear(self.collection_name, document)
+                # Verificar disponibilidad de copias en la colección "libro"
+                libros_prestados = document["libros_prestados"]
+                libros = dao.mostrar("libro", {"_id": {"$in": libros_prestados}})
+                for libro in libros:
+                    if libro.get("copias_disponibles", 0) <= 0:
+                        QMessageBox.warning(self, "Error", f"No hay copias disponibles del libro '{libro['_id']}'.")
+                        return
 
-            # Actualizar el campo "prestamo" en la colección "lector"
-            dao.modificar("lector", {"_id": id_lector}, {"prestamo": True})
+                # Agregar el préstamo en la colección "prestamo"
+                prestamo_id = dao.crear(self.collection_name, document)
 
-            # Actualizar el campo "copias_disponibles" en la colección "libro"
-            for libro in libros:
-                dao.modificar("libro", {"_id": libro["_id"]}, {"$inc": {"copias_disponibles": -1}})
+                # Actualizar el campo "prestamo" en la colección "lector"
+                dao.modificar("lector", {"_id": id_lector}, {"prestamo": True})
+
+            else:
+                # Insertar el documento en la colección respectiva
+                dao.crear(self.collection_name, document)
 
             QMessageBox.information(self, "Éxito", f"{self.collection_name.capitalize()} agregado correctamente.")
             self.clear_line_edits()
